@@ -116,6 +116,8 @@ body::after {
     justify-content: space-between;
     margin-bottom: 8px;
     padding: 8px 20px;
+    position: sticky;
+    top: 0;
     z-index: 100;
 }
 
@@ -653,6 +655,9 @@ body::after {
     .barra-superior {
         padding: 10px 16px;
         margin-bottom: 0;
+        position: sticky;
+        top: 0;
+        border-radius: var(--radius-sm);
     }
 
     .menu-plegable {
@@ -724,6 +729,9 @@ body::after {
 
     .barra-superior {
         padding: 8px 12px;
+        position: sticky;
+        top: 0;
+        border-radius: var(--radius-sm);
     }
 
     .marca h1 {
@@ -841,6 +849,9 @@ body::after {
 
     .barra-superior {
         padding: 6px 10px;
+        position: sticky;
+        top: 0;
+        border-radius: 8px;
     }
 
     .barra-superior-izquierda {

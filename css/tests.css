@@ -327,9 +327,8 @@ body::after {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    height: 100%;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: visible;
     padding-bottom: 20px;
     padding-right: 8px;
 }
@@ -650,6 +649,9 @@ body::after {
         grid-template-columns: 1fr;
         padding: 16px;
         gap: 20px;
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
     }
 
     .barra-superior {
@@ -725,6 +727,9 @@ body::after {
     body {
         padding: 12px;
         gap: 16px;
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
     }
 
     .barra-superior {
@@ -845,6 +850,9 @@ body::after {
     body {
         padding: 8px;
         gap: 12px;
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
     }
 
     .barra-superior {
